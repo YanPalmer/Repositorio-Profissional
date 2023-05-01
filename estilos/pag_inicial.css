@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -56,7 +57,12 @@ nav ul li.active a {
     text-decoration-color: #4AFF2B;
 }
 
-section {
+#home,
+#sobre,
+#habilidades,
+#projetos,
+#contato {
+    position: relative;
     background-color: #015958;
     width: 100%;
     height: 100vh;
