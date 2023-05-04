@@ -72,12 +72,11 @@ nav ul li.active a {
     width: 100%;
     min-height: 100vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 70px;
 }
 #home {
-    background: #222
+    background: #222;
 }
 
 #home .content {
@@ -109,18 +108,63 @@ nav ul li.active a {
     color: #fa3e3e;
     font-weight: 600;
 }
+.content p.btn {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+/* Botão Conheça-me */
+.content p.btn button {
+    background-color: #222;
+    width: 120px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px black;
+    transition: 0.7s;
+}
+.content p.btn button:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: translate(-4px, -2px);
+}
+.content p.btn button a {
+    text-decoration: none;
+    color: #2eff27;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+}
+
 #home img {
     margin-left: 30px;
 }
 
 #sobre {
+    background: linear-gradient(#222, #383235);
     position: relative;
     display: flex;
 }
 #sobre .Minha_foto {
-    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    min-width: 290px;
     height: 500px;
-    background-color: #2eff27;
+    background-color: #0e0d0e;
+    overflow: hidden;
+    border: none;
+    border-radius: 28px;
+    box-shadow: 1px;
+}
+#sobre .Minha_foto img {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    padding: 14px;
+    border: none;
+    border-radius: 50px;
 }
 #sobre .content2 {
     position: relative;
@@ -128,15 +172,13 @@ nav ul li.active a {
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-    padding: 50px;
+    margin-left: 100px;
+    padding: ;
 }
 /* Parei aqui */
 
 
 /* Gradientes */
-#sobre {
-    background: linear-gradient(#222, #383235);
-}
 #habilidades {
     background: linear-gradient(#383235, #41af50);
 }
