@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Fontes:
+font-family: "Open Sans", sans-serif;
+font-family: 'Press Start 2P', cursive; */
 * {
     margin: 0;
     padding: 0;
@@ -91,24 +94,27 @@ nav ul li.active a {
 .content h3 {
     font-size: 5em;
 }
-.content h3 #text {
+.content h3 #firsName {
     color: #2eff27;
 }
 .content p {
     font-size: 1.5em;
 }
-.content p em {
+#home .content p span.orange {
     color: orange;
+    font-style: italic;
 }
-.content p span.blue {
+#home .content p span.blue {
     color: blue;
     font-weight: 600;
+    font-style: italic;
 }
-.content p em span {
+#home .content p span.red {
     color: #fa3e3e;
     font-weight: 600;
+    font-style: italic;
 }
-.content p.btn {
+#home .content p.btn {
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -175,16 +181,93 @@ nav ul li.active a {
     margin-left: 100px;
     padding: 40px;
 }
-/* Parei aqui */
+#sobre .content2 h2 {
+    color: #fff;
+    font-size: 48px;
+}
+#sobre .content2 p {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+#sobre .content2 p > a {
+    color: orange;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+#sobre .content2 p span.orange a{
+    color: orange;
+    text-decoration: none;
+    font-style: italic;
+}
+#sobre .content2 p span.orange a:hover {
+    text-decoration: underline;
+}
 
-
-/* Gradientes */
+/* Habilidades */
 #habilidades {
     background: linear-gradient(#383235, #41af50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#habilidades .content3 {
+    position: relative;
+    width: 80%;
+    height: 450px;
+    background-color: rgb(54, 53, 53);
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(3, 33%);
+}
+#habilidades .content3 img {
+    width: 100px;
+    margin: 35px;
+}
+#habilidades .content3 .imghtml {
+    grid-column: 1;
+    grid-row: 1;
+}
+#habilidades .content3 .imgcss {
+    grid-column: 1;
+    grid-row: 2;
+}
+#habilidades .content3 .imgjavascript {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+
+#habilidades .content3 > div {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+#habilidades .content3 .html {
+    grid-column: 2;
+    grid-row: 1;
+}
+#habilidades .content3 .css {
+    grid-column: 2;
+    grid-row: 2;
+}
+#habilidades .content3 .javascript {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+/* Parei aqui */
 #projetos {
     background: linear-gradient(#41af50, #9198e5);
 }
+
+
+/* Gradientes */
+
+
 #contato {
     background: linear-gradient(#e66465, #9198e5);
 }
