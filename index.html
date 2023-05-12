@@ -4,212 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Yan Palmer</title>
-    <!-- Link para a fonte dos ÍCONES "https://cdnjs.com/libraries/font-awesome/4.7.0" -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Portfólio</title>
+    <!-- Link para o css -->
+    <link rel="stylesheet" href="estilos/pag_inicial.css">
+    <!-- Link para o devicon.dev -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navegacao">
+    <header>
+        <div class="portfolio"><span>My</span>Portfolio</div>
+        <nav>
             <ul>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Portfólio</a></li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li ><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <div class="left_Side">
-            <div class="profileText">
-                <div class="imgBx">
-                    <img src="imagens/Yan_Palmer.jpg" alt="Minha foto" title="Yan Palmer">
-                </div>
-                <h2>Yan Palmer<br><span>Programador <br>Front-End</span></h2>
-            </div>
-
-            <div class="contactInfo">
-                <h3 class="title">Informações de Contato</h3>
-                <ul>
-                    <li>
-                        <span class="icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
-                        <a href="https://wa.me/5581995069382?text=Bem-vindo(a) ao meu WhatsApp!">(81) 99506 9382</a>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <a href="https://mail.google.com/mail/">yanpalmer007@gmail.com</a>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                        <a href="#">www.meuSite.com</a>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                        <a href="https://www.linkedin.com/in/yanpalmer007/">www.linkedin.com/in/yanpalmer007</a>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-                        <a href="https://github.com/YanPalmer">https://github.com/YanPalmer</a>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                        <a href="https://www.google.com/maps/place/Caruaru+-+Picada,+Caruaru+-+PE,+55032-250/@-8.2932171,-35.9835018,15z/data=!3m1!4b1!4m6!3m5!1s0x7a98b96e8d7fd6d:0xa30a5c7c9e363ef5!8m2!3d-8.2932173!4d-35.9835018!16zL20vMDFtNHh3">Caruaru, Pernambuco, Brasil</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="contactInfo education">
-                <h3 class="title">Escolaridade</h3>
-                <ul>
-                    <li>
-                        <h5>2017 - 2019</h5>
-                        <h4>Ensino Médio</h4>
-                        <h4>Arnaldo Assunção</h4>
-                    </li>
-                    <li>
-                        <h5>2021 - 1023</h5>
-                        <h4>Análise e Desenvolvimento de Sistemas</h4>
-                        <h4>ETE Ministro Fernando Lyra</h4>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="contactInfo language">
-                <h3 class="title">Línguas</h3>
-                <ul>
-                    <li>
-                        <span class="text">Inglês</span>
-                        <span class="percent">
-                            <div style="width: 60%;"></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="text">Espanhol</span>
-                        <span class="percent">
-                            <div style="width: 20%;"></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="text">Português</span>
-                        <span class="percent">
-                            <div style="width: 100%;"></div>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-
+    </header>
+    <section id="home">
+        <div class="content">
+            <h2>Oi!</h2>
+            <h3>Eu sou <span id="firsName">Yan</span></h3>
+            <p>Estudo programação de casa e estou em busca da minha 
+                <span class="blue">primeira oportunidade</span> 
+                como programador 
+                <span class="orange">Front-End</span><br>
+                Meu maior objetivo é realizar meu sonho de me tornar um programador 
+                <span class="red">Senior</span>
+            </p>
+            <p class="btn">Não foi o suficiente? <button><a href="#sobre">Conheça-me</a></button></p>
+        </div>
+        <img src="imagens/imagem_programação_web.jpg" alt="Antonio Batinić">
+    </section>
+    <section id="sobre">
+        <div class="Minha_foto"><img src="imagens/imagem_carregamento.jpeg" alt="Minha_foto"></div>
+        <div class="content2">
+            <h2>Mas quem sou eu?!</h2>
+            <p>"Sou um jovem programador de 22 anos. Fiz curso técnico de Analise e Desenvolvimento de Sistemas onde aprendi diversas <a href="#habilidades">habilidades</a> como: 
+                <span class="orange"><a href="#">Html</a></span> / 
+                <span class="orange"><a href="#">Css</a></span> / 
+                <span class="orange"><a href="#">JavaScript</a></span><br><br>
+            Atualmente comprei um notebook ao qual ajudou DEMAIS nos meus estudos e estou economizando para pagar uma faculdade enquanto busco vagas como desenvolvedor Júnior."</p>
         </div>
         
-        <div class="right_Side">
-            <div class="about">
-                <h2 class="title2">Objetivo</h2>
-                <p>Busco me tornar um programador Full-Stack. Tenho facilidade com internet, computadores, 
-                    tecnologia e estudo programação a 2 anos porem nunca tive uma oportunidade de trabalho na área.<br><br>
-
-                    Realizei um curso Técnico de <b>"Análise e Desenvolvimento de Sistemas"</b> focado em 
-                    como construir e arquitetar um site. Aprendi também linguagens de programação e marcação, 
-                    tais como: <i>HTML, CSS, JavaScript, Python e MySQL.</i> <br>
-                    Adoraria ter a oportunidade para trabalhar e colaborar com a equipe utilizando dos meus 
-                    conhecimentos em programação. Estou disposto a aprimorar e desenvolver novas habilidades em meu dia a dia de trabalho.
-                </p>
-            </div>
-
-            <div class="about skills">
-                <h2 class="title2">Tecnologias</h2>
-                <div class="box">
-                    <h4>Html</h4>
-                    <div class="percent">
-                        <div style="width: 80%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Css</h4>
-                    <div class="percent">
-                        <div style="width: 60%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>JavaScript</h4>
-                    <div class="percent">
-                        <div style="width: 25%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>MySQL</h4>
-                    <div class="percent">
-                        <div style="width: 30%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Python</h4>
-                    <div class="percent">
-                        <div style="width: 10%;"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <h2 class="title2">Certificados</h2>
-                <div class="box">
-                    <!-- Carga horária curso -->
-                    <div class="carga_horaria">
-                        <h2>15H - <i>Fundação Bradesco</i></h2>
-                    </div>
-                    <div class="text">
-                        <h4>Hardware e Software</h4>
-                        <p>Introdução ao sistema de computação,
-                            conceitos de hardware e software,
-                            prevenção e segurança.</p>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="carga_horaria">
-                        <h2>16H - <i>Fundação Bradesco</i></h2>
-                    </div>
-                    <div class="text">
-                        <h4>HTML e CSS na prática</h4>
-                        <p>Desenvolvimento Web utilizando boas práticas em 
-                            HTML e CSS.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="carga_horaria">
-                        <h2>60H - <a href="./Declaração - Digitação.pdf" target="_blank"><i>GINEAD</i></a></h2>
-                    </div>
-                    <div class="text">
-                        <h4>Curso de Digitação</h4>
-                        <p>Introdução ao computador, postura correta, 
-                            treinamento de digitação, treinamento de velocidade, 
-                            textos para digitação.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-                <h2 class="title2">Outras Habilidades</h2>
-                <ul>
-                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Responsável</li>
-                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Social</li>
-                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Organizado</li>
-                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Educado</li>
-                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Ágil</li>
-                    <li><i class="fa fa-check-circle" aria-hidden="true"></i>Proativo</li>
-                </ul>
-            </div>
-
-            <div class="about interest">
-                <h2 class="title2">Interesses</h2>
-                <ul>
-                    <li><i class="fa fa-gamepad" aria-hidden="true"></i>Jogos</li>
-                    <li><i class="fa fa-film" aria-hidden="true"></i>Séries</li>
-                    <li><i class="fa fa-music" aria-hidden="true"></i>Música</li>
-                    <li><i class="fa fa-cube" aria-hidden="true"></i>Cubo Mágico</li>
-                </ul>
-            </div>
-
-
+    </section>
+    <section id="habilidades">
+        <div class="content3">
+            <img class="imghtml" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+            <img class="imgcss" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+            <img class="imgjavascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            <div class="html"><abbr title="Hyper Text Markup Language">HTML</abbr> - É uma forte linguagem de marcação presente em todos os sites da web</div>
+            <div class="css"><abbr title="Cascading Style Sheet">CSS</abbr> - É ela quem faz a estilização de sites quando combinada com o HTML</div>
+            <div class="javascript"><abbr title="também conhecida como: Oak, JavaCoffee">JavaScript</abbr> - É uma linguagem de programação que manipula dados e elementos de uma página</div>
+            
         </div>
-    </div>
+        
+    </section>
+    <section id="projetos"></section>
+    <section id="contato"><address>resido em Caruaru - PE - Brasil</address></section>
 </body>
 </html>
