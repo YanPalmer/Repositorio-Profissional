@@ -206,7 +206,7 @@ nav ul li.active a {
 
 /* Habilidades */
 #habilidades {
-    background: linear-gradient(#383235, #41af50);
+    background: linear-gradient(#383235, #939add);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +261,59 @@ nav ul li.active a {
 
 /* Parei aqui */
 #projetos {
-    background: linear-gradient(#41af50, #9198e5);
+    position: relative;
+    background: linear-gradient(#383235, #9198e5);
+}
+#projetos .grid {
+    position: relative;
+    background-color: #222;
+    width: 100%;
+    height: 80vh;
+    border-radius: 15px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#projetos .grid .gridContent {
+    position: relative;
+    background-color: #3f4046;
+    border-radius: inherit;
+    margin: 20px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#projetos .grid .gridContent img {
+    position: relative;
+    width: 450px;
+}
+#projetos .grid .gridContent .botoes {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#projetos .grid .gridContent .botoes button {
+    width: 15em;
+    height: 5em;
+    background-color: #797677;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projetos .grid .gridContent .botoes button i {
+    font-size: 3em;
+    height: 40px;
+    margin-right: 10px;
+}
+#projetos .grid .gridContent .botoes button a {
+    color: black;
+    font-size: 1.59em;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
