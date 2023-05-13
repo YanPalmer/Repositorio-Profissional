@@ -143,6 +143,7 @@ nav ul li.active a {
 
 #home img {
     margin-left: 30px;
+    transform: perspective(800px) rotateY(339deg);
 }
 
 #sobre {
