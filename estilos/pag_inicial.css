@@ -164,6 +164,7 @@ nav ul li.active a {
     border: none;
     border-radius: 28px;
     box-shadow: 0 0 10px rgb(10, 211, 20);
+    transform: perspective(800px) rotateY(20deg) rotateX(5deg);
 }
 #sobre .Minha_foto img {
     position: relative;
