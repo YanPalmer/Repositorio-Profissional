@@ -393,5 +393,77 @@ nav ul li.active a {
 
 
 #contato {
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#383235, #222);
+    justify-content: center;
+}
+#contato .content4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 530px;
+    width: 100%;
+}
+#contato .content4 #img_e_curriculo {
+    background-color: #065c85;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+#contato .content4 #img_e_curriculo > img {
+    position: relative;
+    height: 270px;
+    max-height: 90%;
+    width: 270px;
+    border-radius: 100%;
+}
+#contato .content4 #img_e_curriculo #curriculo {
+    background-color: #252527;
+    color: #fff ;
+    height: 270px;
+    width: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 15px;
+}
+#contato .content4 #img_e_curriculo #curriculo h4 {
+    margin: 0 0 10px 8px;
+}
+#contato .content4 #img_e_curriculo #curriculo a {
+    position: relative;
+    width: 230px;
+    height: 212px;
+    border-radius: 10px;
+}
+#contato .content4 #img_e_curriculo #curriculo a:hover {
+    background-image: url(../imagens/Meu_Curriculo2.jpg);
+    opacity: 0.4;
+    transition: 0.3s;
+}
+#contato .content4 #img_e_curriculo #curriculo a img {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
+#contato .content4 p {
+    background-color: #065c85;
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    border-radius: 80px;
 }
